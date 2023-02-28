@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Matt's Website</title>
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>M</span>atthew <span>L</span>evine</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#photographys" data-after="Photography">Photography</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Matthew <span></span></h1>
+        <a href="img/Matthew_Levine_Resume_.pdf" type="button" class="cta">Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="https://mattlevine68.github.io/img/about_img.PNG" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Graduate</h2>
+        <p>I am a graduate student at Rensselaer Polytechnic Institute majoring in Information Technology and Web Science with a concentration in Information Security
+          and I have a Bachelor of Science in Electrical Engineering. Engineers have the power to impact the world we live in today and I am glad to have the
+          chance to be able to work towards a better future and leave my mark on history. My philosophy when it comes
+          to engineering tasks is I either know how to do it or i'll learn how to do it. Outside of engineering
+          I enjoy taking pictures, volleyball and exploring new places. Growing up in New York City I am lucky
+          enough to be surrounded by a multitude of cultures and it's so much fun being able to go to different
+          parts of the city and experience so many new restaurants. Please press the food list button below to
+          see great restaurants to go to if you want some amazing restaurants all across the country!</p>
+        <a href="https://docs.google.com/spreadsheets/d/1lNsvTY5gnO2Y8ANjIibbWV2Q8gjfh5ufJGxZ3JlS6-w/edit?usp=sharing" class="cta">View FoodList</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Edibubble</h1>
+            <h2>Coming Soon</h2>
+            <p>I am leading a team of five people to create a new way of recommending food to your friends. We
+               are creating an app and website that will allow people to interact and receive recommendation from
+               local people and friends instead of tourist who don't know the hidden gems. We are using C#.Net for the
+               app and Node.js for the website with our database in AWS. </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/edibubble.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>We Lit</h1>
+            <h2>High Speed Data Modulation Lightbulb</h2>
+            <p>I am leading a team of four to design a commercial LED system for hospitals that acts
+              as a high bit rate transceiver and receiver for data transfer. We are working to incorporate
+              this in connected health devices to patients to achieve less deaths from mishearing an alarm or
+              not realizing how severe a patient's condition is. We have submitted a provisional patent through
+              Rensselaer and press <a href="./img/LED.pdf">here</a> to see our paper that was submitted for the MANE Journal in the Congressional Library.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/LED.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Bird be Gone</h1>
+            <h2>Saving The Planet One Step At A Time</h2>
+            <p>For a Hackathon project me and a team of three other people worked on a prototype of a low cost ultrasonic device that would use computer vision
+               to determine if a bird was coming close to a wind turbine, play a noise in a range that only birds can hear which also annoys them into flying around
+               the turbine. We are looking into methods to track how this would affect migration patterns and reasonable ways to represent this data. To view the code click
+               <a href="https://github.com/17chu/BirdTurbine?fbclid=IwAR01OUmNjggTmewbtMO2K5pAhZAS57hRrcYOkQESqPNP9nEHAKDIr9WXWJY">here</a>.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/birdemic.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Themed Entrance</h1>
+            <h2>Going Into Your Room Has Never Been so Cool</h2>
+            <p>As a fun personal project, I wanted to always walk into my room in style. I created a computer vision program to recognize my face and play Hotel California
+               for 15 seconds. This was achieved using openCV and Spotify's API. I am looking to expand this by improving my model to better detect other faces with my terrible
+               webcam and creating a UI for people to incorporate in their own homes. To view the code click <a href="https://github.com/mattlevine68/Theme-Song-Generator">here</a>. </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/music.jpg" alt="img">
+          </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Home Alarm System</h1>
+          <h2>Don't get Robbed Anymore!</h2>
+          <p>For our Microprocesor System class my partner and I created a home security system that worked through our STM32F7 Microprocesor. We connected a Webcam and PIR
+             sensor and used the USB, I2C, DCMI, GPIO and UART buses to allow our device to work. This was done in C in the STM32 IDE and we worked on creating our own USB driver class
+             to allow usage of our webcam. To view the code click <a href="https://github.com/mattlevine68/MPS-Final-Project">here</a>. </p>
+        </div>
+        <div class="project-img">
+          <img src="./img/security.png" alt="img">
+        </div>
+    </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- photography Section -->
+  <section id="photographys">
+    <div class="photographys container">
+      <div class="photography-top">
+        <h1 class="section-title"><span>Photo</span>graphy</h1>
+        <p>There is so much happening every day and I love being able to capture events or scenery that I see. These are some of the recent
+           pictures that I have taken. To see my gallery please scroll all the way to the bottom and press the flickr icons.</p>
+      </div>
+      <div class="photography-bottom">
+        <div class="photography-item">
+          <img src="./img/jersey.jpg" alt="img">
+
+        </div>
+        <div class="photography-item">
+          <img src="./img/tunnel.jpg" alt="img">
+        </div>
+        <div class="photography-item">
+          <img src="./img/shining.jpg" alt="img">
+        </div>
+        <div class="photography-item">
+          <img src="./img/me.jpg" alt="img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End photography Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Contact <span>info</span></h1></div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 646-306-3891</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>mattlevine68@gmail.com</h2>
+            <h2>levinm7@rpi.edu</h2>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>M</span>atthew <span>L</span>evine</h1></div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/matt.levine.33/"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/mattlevine68/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/matthewlevine2/"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.flickr.com/people/matt_levine/"><img src="https://img.icons8.com/bubbles/100/000000/flickr.png"/></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
+
+<!-- thank you to Web Cifar on youtube for the great tutorial if anyone views the comment check it out it really helps! -->
